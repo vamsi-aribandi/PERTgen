@@ -1,0 +1,9 @@
+TASK,DURATION,DEPENDENCIES
+a,10,NONE
+b,8,NONE
+c,12,a
+d,5,a b
+e,7,b
+f,15,c d
+g,13,f
+h,8,e
